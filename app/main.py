@@ -6,7 +6,7 @@ from app.core.config import settings
 from app.routes.user_routes import router as user_router
 from app.routes.marketplace_routes import router as marketplace_router
 
-
+# something changed
 def create_app() -> FastAPI:
     app = FastAPI(
         title="Authentication API",
